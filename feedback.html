@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="" name="contact-form" enctype="multipart/form-data">
+            <h4>Contact Us</h4>
+            <input type="text" name="your-name" placeholder="Name" required>
+            <input type="email" name="your-email" placeholder="Email" required>
+            <input type="tel" name="your-phone" placeholder="Phone Number" required>
+            <select name="department" required>
+                <option value="" disabled selected>Select Department</option>
+                <option value="Sales">Sales</option>
+                <option value="Support">Support</option>
+                <option value="Technical">Technical</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea name="complaint" rows="7" placeholder="Complaint" required></textarea>
+            <input type="text" name="area" placeholder="Area" required>
+            <input type="datetime-local" name="date-time" required>
+            <input type="file" name="attachment" accept=".pdf,.doc,.docx" required>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <script src="feedback.js"></script>
+</body>
+</html>
