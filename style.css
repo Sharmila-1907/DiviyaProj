@@ -1,10 +1,15 @@
-/* Default styles for all screen sizes */
+body{
+  background-color: #FAE5D3;
+}
+
+
 .container {
   max-width: 500px;
   margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
+  padding: 30px;
+  border: 1px solid #8B4513; /* Brown border */
   border-radius: 5px;
+  background-color: #FFF8DC; /* Light brown background */
   background-image: url('your-company-image.jpg'); /* Replace 'your-company-image.jpg' with the URL or path to your company picture */
   background-size: cover;
   background-position: center;
@@ -18,7 +23,7 @@ textarea {
   width: 100%;
   margin-bottom: 10px;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #8B4513; /* Brown border */
   border-radius: 3px;
 }
 
@@ -26,12 +31,12 @@ input[type="file"] {
   width: calc(100% - 16px);
   margin-bottom: 10px;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #8B4513; /* Brown border */
   border-radius: 3px;
 }
 
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #8B4513; /* Brown background */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -40,20 +45,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #A0522D; /* Darker brown hover color */
 }
 
 h4 {
   margin-top: 0;
 }
-
 /* Media query for phones */
 @media (max-width: 767px) {
   .container {
     padding: 10px;
+    margin: 50px; /* Center the container */
   }
 }
-
 /* Media query for tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {

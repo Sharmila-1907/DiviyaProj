@@ -2,11 +2,15 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+     <link rel="icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYB_XDbMTfCBsEuuV7GjD6Q3rNWCzifXnT1Uwb2X4cyYY2jGP5nqxDLAYxu6VXXcEugNk&usqp=CAU" />
+    
 </head>
 <body>
     <div class="container">
         <form method="post" action="" name="contact-form" enctype="multipart/form-data">
-            <h4>Contact Us</h4>
+            
+            <h4 style="font-size: 25px;">Contact Us</h4>
             <input type="text" name="your-name" placeholder="Name" required>
             <input type="email" name="your-email" placeholder="Email" required>
             <input type="tel" name="your-phone" placeholder="Phone Number" required>
@@ -19,7 +23,7 @@
             </select>
             <textarea name="complaint" rows="7" placeholder="Complaint" required></textarea>
             <input type="text" name="area" placeholder="Area" required>
-            <input type="datetime-local" name="date-time" required>
+            <input type="datetime-local" name="date-time" required><br><br>
             <input type="file" name="attachment" accept=".pdf,.doc,.docx" required>
             <input type="submit" value="Submit" id="submit">
         </form>
