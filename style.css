@@ -1,66 +1,36 @@
-body{
-  background-color: #FAE5D3;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAE5D3;
+    margin: 0;
+    padding: 0;
 }
 
-
-.container {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 30px;
-  border: 1px solid #8B4513; /* Brown border */
-  border-radius: 5px;
-  background-color: #FFF8DC; /* Light brown background */
-  background-image: url('your-company-image.jpg'); /* Replace 'your-company-image.jpg' with the URL or path to your company picture */
-  background-size: cover;
-  background-position: center;
+.welcome-container {
+    text-align: center;
+    margin-top: 20%;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
-textarea {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #8B4513; /* Brown border */
-  border-radius: 3px;
+.welcome-container h1 {
+    font-size: 36px;
+    color: #333;
 }
 
-input[type="file"] {
-  width: calc(100% - 16px);
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #8B4513; /* Brown border */
-  border-radius: 3px;
+.welcome-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
 }
 
-input[type="submit"] {
-  background-color: #8B4513; /* Brown background */
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+.report-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A93226;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover {
-  background-color: #A0522D; /* Darker brown hover color */
-}
-
-h4 {
-  margin-top: 0;
-}
-/* Media query for phones */
-@media (max-width: 767px) {
-  .container {
-    padding: 10px;
-    margin: 50px; /* Center the container */
-  }
-}
-/* Media query for tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    max-width: 70%;
-  }
+.report-button:hover {
+    background-color: #EC7063;
 }
