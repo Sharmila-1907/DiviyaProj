@@ -1,5 +1,5 @@
 body{
-  background-color: #FAE5D3;
+  background-color: #D4E6F1;
 }
 
 
@@ -7,12 +7,13 @@ body{
   max-width: 500px;
   margin: 0 auto;
   padding: 30px;
-  border: 1px solid #8B4513; /* Brown border */
+  border: 2px solid #808B96; /* Brown border */
   border-radius: 5px;
-  background-color: #FFF8DC; /* Light brown background */
+  background-color: #85C1E9; /* Light brown background */
   background-image: url('your-company-image.jpg'); /* Replace 'your-company-image.jpg' with the URL or path to your company picture */
   background-size: cover;
   background-position: center;
+  margin-bottom: 100px;
 }
 
 input[type="text"],
@@ -31,12 +32,12 @@ input[type="file"] {
   width: calc(100% - 16px);
   margin-bottom: 10px;
   padding: 8px;
-  border: 1px solid #8B4513; /* Brown border */
+  border: 2px solid #808B96; /* Brown border */
   border-radius: 3px;
 }
 
 input[type="submit"] {
-  background-color: #8B4513; /* Brown background */
+  background-color: #5499C7; /* Brown background */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -45,7 +46,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #A0522D; /* Darker brown hover color */
+  background-color: #7FB3D5; /* Darker brown hover color */
 }
 
 h4 {

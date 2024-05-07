@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #FAE5D3;
+    background-color: #D4E6F1;
     margin: 0;
     padding: 0;
 }
 
 .welcome-container {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .welcome-container h1 {
@@ -24,7 +24,7 @@ body {
 .report-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #A93226;
+    background-color: #5499C7;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -32,5 +32,10 @@ body {
 }
 
 .report-button:hover {
-    background-color: #EC7063;
+    background-color: #7FB3D5;
+}
+
+.company-image {
+    width: 300px; /* Adjust the width as needed */
+    margin-bottom: 20px;
 }
